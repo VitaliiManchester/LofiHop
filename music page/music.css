@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    color: black;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.back3 {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.main-music {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-top: 0;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 1px 10px black;
+}
+
+a{
+   display: flex;
+   text-decoration: none;
+
+}
+
+a {
+    bottom: 70px;;
+    color: aliceblue;
+    margin: 50px 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px 80px;
+    border: 2px solid white;
+    position: relative;
+    transition: 100ms;
+    text-shadow: 2px 2px black;
+    letter-spacing: 1px;
+    justify-content: center;
+    margin: 20px 195px;
+    background-color: rgba(0, 0, 0, 0.466);
+    transition: 2s;
+    
+}
+
+a:hover {
+   background-color: rgba(240, 255, 255, 0.39);
+   border: 2px solid black;
+}
+
+
+li {
+    
+    list-style-type: none; 
+}
+
+ul {
+    
+    justify-content: center;
+    display: flex;
+}
+
+.video  {
+    left: 12px;
+    position: relative; 
+    bottom: 100px;
+    text-align: center;
+
+}
+
+iframe {
+    background-color: rgba(247, 12, 208, 0.199);
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 520px;
+    height: 300px;
+    margin: 0 52px;
+    
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

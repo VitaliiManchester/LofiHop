@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+body {
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.back2 {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.384);
+    transition: 500ms;
+    text-shadow: 2px 2px rgb(255, 9, 112);
+    text-align: center;
+    margin: 15px 800px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1:hover {
+    background-color: rgba(240, 248, 255, 0.13);
+    margin: 15px 10px;
+}
+
+
+

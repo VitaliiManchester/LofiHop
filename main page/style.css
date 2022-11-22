@@ -1,0 +1,372 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    font-family: 'Poor Story', cursive;
+    margin: 0;
+    padding: 0;
+    color: black;
+    position: relative;
+    margin: auto;
+    width: 50%;
+    top: 300px;
+    overflow: hidden;
+
+}
+
+.back1 {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+
+.img-1 {
+    position: relative;
+    top: 10px;
+    width: 500px;
+    opacity: 0.85;
+    z-index: 1;
+    border-radius: 70px;
+    border: 3px solid rgba(20, 4, 4, 0.452); 
+    transition: 350ms;
+}
+
+.img-1:hover {
+    box-shadow:  0 15px 150px rgba(230, 91, 172, 0.658);
+}
+
+
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.intro {
+    margin: 40px 0 50px;
+    width: 500px;
+    font-size: 25px;
+    
+}
+
+.button {
+    z-index: 1;
+    transition: 300ms;
+    border: 1px solid black;
+    font-size: 50px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 0 85px;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    left: 475px;
+    bottom: 72px;
+    margin-right: 150px;
+}
+
+.button:hover {
+    opacity: 0.7;
+    border: 5px solid white;
+    padding: 10px 90px;
+    color: #C71585 ;
+}
+
+.offer {
+    color: white;
+    z-index: 1;
+    margin-left: 30px;
+    width: 500px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    position: relative;
+    right: 430px;
+    bottom: 160px;
+    padding-bottom: 0;
+}
+
+.text-shadow {
+    text-shadow: 5px 5px black;
+
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+     color: rgb(230, 0, 0); 
+     margin: 0 75px;
+     border-radius: 10px;
+     background-color:rgba(0, 0, 0, 0.808) ;
+     border: 5px solid rgba(0, 0, 0, 0.158);
+     padding: 5px 80px;  
+     font-weight: bold;
+     list-style-type:none; 
+     transform: skew(5deg, 5deg) ;
+} 
+ 
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul {
+    right: 455px;
+    bottom: 775px;
+    position: relative;
+}
+
+ li {
+    transition: 1000ms;
+ }
+
+  li:hover {
+    box-shadow: 15px 15px #000000;
+    background-color: #C71585 ;
+    transform: rotate(-360deg);
+    text-shadow: 2px 2px black;
+ }
+
+ li:active {
+    transition:  100ms ;
+    background-color: #970e65;
+ }
+
+ video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+    
+.img-2 {
+    position: relative;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 100px;
+    transition: 1.5s;
+    bottom: 853px;
+    right: 465px;
+    opacity: 0.09;
+}
+
+.img-2:hover {
+    transform: rotate(360deg);
+    opacity: 1;
+}
+
+ 
+.dropbtn {
+    font-family: 'Poor Story', cursive;
+    transition: 1s;
+}
+
+ .dropbtn {
+     margin: 0 75px;
+     color: white; 
+     border-radius: 10px;
+     background-color:rgba(0, 0, 0, 0.808) ;
+     border: 5px solid rgba(0, 0, 0, 0.158);
+     padding: 12px 80px;  
+     font-weight: bold;
+     list-style-type:none; 
+     transform: skew(5deg, 5deg) ; 
+     font-size: 20px;
+     border: none;
+     transition: 400ms;
+
+}
+
+.dropbtn:hover {
+    padding: 13px 83px;
+    border: 2px solid white;
+    color: aqua;
+}
+
+.dropdown {
+    left: 1020px;
+    bottom: 938px;
+    position: relative;
+    display: inline-block;
+    margin-right: 1px;
+
+
+}
+  
+.dropdown-content {
+    transition: 1s;
+}
+    
+
+.dropdown-content {
+        font-family: 'Bebas Neue', cursive;
+        left: 44px;
+        color: white; 
+        margin: 2px 75px;
+        border: 5px solid rgba(0, 0, 0, 0.158);
+        font-weight: bold;
+        transform: skew(5deg, 5deg);
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        transition: 100ms;
+        padding: 0px ;
+    }
+
+ .dropdown-content:hover {
+    border-radius: 15px;
+ }
+
+.dropdown-content a {
+    color: black;
+    padding: 0 50px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.123);
+    border-radius: 50px;
+}
+
+  
+.dropdown:hover .dropdown-content {
+ display: block;
+
+ }
+
+ 
+
+ .about-us {
+   transition: 300ms;
+ }
+
+ .about-us:hover {
+    color: rgb(158, 44, 152);
+  }
+
+ .about-us:active {
+    color: aquamarine;
+ }
+
+
+ .author {
+    transition: 300ms;
+ }
+
+ .author:hover {
+    color:rgb(24, 127, 145) ;
+ }
+
+ .author:active {
+    color: aquamarine;
+ }
+
+ .group {
+    transition: 300ms;
+ }
+
+ .group:hover {
+    color: grey;
+ }
+ 
+ .group:active {
+    color: aquamarine;
+ }
+ 
+
+#inside {
+   color: white;
+   padding-right: 10px;
+   font-weight: bold;  
+   font-size: 45px;
+   position: relative;
+   text-align: right;
+   bottom: 920px;
+   right: 330px;
+   width: 200px;
+   margin: 0;
+   border-radius: 10px;
+   text-shadow: 1px 1px rgba(0, 0, 0, 0.877);
+}
+
+.clock {
+    width: 40px;
+    position: relative;
+    bottom: 968px;
+    right: 331px;  
+}
+
+@media screen and (max-width: 1000px) {
+  .back1{
+    width: 2500px;
+    height: 3600px;
+    
+}
+}
+
+@media screen and (max-width: 1000px) {
+ .nav-list {
+     top: 50px;
+     right: 250px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+    .button {
+        top: 200px;
+        right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+   .wrapper{
+    position: relative;
+    top: 180px;
+    left: 430px;
+   }  
+}
+
+@media screen and (max-width: 1000px) {
+    #inside {
+        font-size: 80px;
+        left: 450px;
+        bottom: 320px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+  .dropbtn {
+    right: 690px;
+    top: 910px;
+    position: relative;
+  }
+}
+
