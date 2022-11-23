@@ -333,40 +333,114 @@ ul {
 
 @media screen and (max-width: 1000px) {
  .nav-list {
-     top: 50px;
-     right: 250px;
-}
+     flex-direction: column;
+     gap: 280px;
+     bottom: 2070px;
+     left: 800px;  
+ }
 }
 
 @media screen and (max-width: 1000px) {
-    .button {
-        top: 200px;
-        right: 10px;
+    a {
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    li {
+       font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+    a {
+        text-align: center;
     }
 }
 
 
-@media screen and (max-width: 1000px) {
-   .wrapper{
-    position: relative;
-    top: 180px;
-    left: 430px;
-   }  
-}
 
 @media screen and (max-width: 1000px) {
     #inside {
-        font-size: 80px;
-        left: 450px;
-        bottom: 320px;
+        font-size: 200px;
+        left: 200px;
+        bottom: 700px;
     }
 }
 
 @media screen and (max-width: 1000px) {
   .dropbtn {
-    right: 690px;
-    top: 910px;
+    transform: skew(0deg);
+    right: 800px;
+    bottom: 1450px;
     position: relative;
+    font-size: 75px;
   }
 }
+
+@media screen and (max-width: 1000px) {
+    .lofi-hope1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper{
+     position: relative;
+     top: 5px;
+     left: 210px;
+     width: 2000px;
+     display: block;
+     
+    }  
+ }
+
+@media screen and (max-width: 1000px) {
+    .img-1 {
+        width: 1000px;
+        height: 1000px;
+        
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .offer {
+        position: relative;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .intro{
+        font-size: 80px;
+        line-height: normal;
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .text-shadow {
+        font-size: 100px;
+
+    }  
+}
+
+@media screen and (max-width: 1000px) {
+    br {
+        content: "";
+      }
+}
+    
+
+
+@media screen and (max-width: 1000px) {
+    .button  {
+        top: -50px;
+        left: 250px;
+        font-size: 100px;
+    }
+}
+
 
