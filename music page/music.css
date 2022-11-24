@@ -99,6 +99,47 @@ iframe {
     
 }
 
+@media screen and (max-width: 1000px) {
+   .back3 {
+    width: 1500px;
+    height: 3500px;
+   }
+}
+    
+@media screen and (max-width: 1000px) {
+    ul {
+        display: block;
+        top: 50px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 110px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    a {
+     font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .video {
+        top: 120px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    iframe {
+        width: 800px;
+        height: 300px;
+    }
+}
+
+
 
 
 
